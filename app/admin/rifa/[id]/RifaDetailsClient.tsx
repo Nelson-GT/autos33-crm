@@ -395,8 +395,8 @@ export function RifaDetailsClient({ rifa, premios, boletos, totalBoletos, curren
         </Card>
 
         {/*
-        */}
         <AdminBoletosReservados rifaId={rifa.id} />
+        */}
 
         <Card className="mb-8 shadow-sm pt-2">
           <CardHeader className="rounded-t-lg">
@@ -449,7 +449,7 @@ export function RifaDetailsClient({ rifa, premios, boletos, totalBoletos, curren
         
         {/* === TARJETA ORIGINAL (Ocupa 2/3) === */}
         {/* Editar aqui el ancho del porcentaje de venta visual md:col-span-2*/}
-        <Card className="md:col-span-3">
+        <Card className="md:col-span-2">
           <CardHeader>
             <CardTitle>Porcentaje de Venta Visual (Marketing)</CardTitle>
             <CardDescription>
@@ -498,7 +498,7 @@ export function RifaDetailsClient({ rifa, premios, boletos, totalBoletos, curren
           </CardContent>
         </Card>
 
-        {/* === NUEVA TARJETA DE VISIBILIDAD (Ocupa 1/3) === 
+        {/* === NUEVA TARJETA DE VISIBILIDAD (Ocupa 1/3) ===*/} 
         <Card className="md:col-span-1 flex flex-col border border-gray-100 shadow-sm">
           <CardHeader className="pb-4">
             <div className="flex items-center gap-3">
